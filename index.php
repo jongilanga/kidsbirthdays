@@ -1,5 +1,5 @@
 <?php
-    require_once 'config/config.php';
+    require_once 'configs/config.php';
     require_once 'classes/database.class.php';
 
     $db = new Database($pdo);
