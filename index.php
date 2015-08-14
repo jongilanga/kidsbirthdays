@@ -41,7 +41,7 @@
           echo "</pre>";
     }*/
     //Use CLICKATELL API to send you self an sms a day before your child's birthday
-foreach ($row as $child) {
+    foreach ($row as $child) {
         if(getBirthday($child['dob']) == 15)  {
                $user = "user";
                $password = "password";
