@@ -37,7 +37,7 @@ CREATE TABLE `child` (
 
 LOCK TABLES `child` WRITE;
 /*!40000 ALTER TABLE `child` DISABLE KEYS */;
-INSERT INTO `child` VALUES (1,'Nonelela','Tsawe','2001-03-24'),(2,'Ntando','Ndzendze','2003-08-06'),(3,'Langa','Mantyi','2006-12-18'),(4,'Unathi','Mantyi','2008-04-08'),(5,'Akhanani','Siloti','2011-08-30'),(6,'Odwa','Guma','2012-11-15');
+INSERT INTO `child` VALUES (1,'childname','surname','1970-01-01'),(2,'childname','surname','1970-01-01'),(3,'childname','surname','1970-01-01'),(4,'childname','surname','1970-01-01'),(5,'childname','surname','1970-01-01'),(6,'childname','surname','1970-01-01');
 /*!40000 ALTER TABLE `child` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
